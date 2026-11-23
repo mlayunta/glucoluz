@@ -1,0 +1,44 @@
+{
+  "name": "GlucoLuz · Diabetes",
+  "short_name": "GlucoLuz",
+  "description": "Conteo de hidratos, calculador de bolo, TIR e informes AGP para diabetes tipo 1 y tipo 2.",
+  "lang": "es-ES",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#f4f7fa",
+  "theme_color": "#0d9488",
+  "categories": ["health", "medical", "lifestyle", "utilities"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Registrar glucosa",
+      "short_name": "Glucosa",
+      "url": "./index.html?action=glucose",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Calcular comida",
+      "short_name": "Comida",
+      "url": "./index.html?action=meals",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Ver informes",
+      "short_name": "Informes",
+      "url": "./index.html?action=reports",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
